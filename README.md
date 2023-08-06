@@ -5,7 +5,8 @@
 ---
 ## Installation
 
-you can train your own model in training folder and save that model in models folder.
+download model from [mydrive](https://drive.google.com/file/d/1FO1pJNvD6oIyfskkeTiO_jTcAh_Wc1aP/view?usp=sharing) and store it in models directory.
+you can also train your own model in training folder and save that model in models folder.
 
 1. Create a virtual environment
 ```bash
