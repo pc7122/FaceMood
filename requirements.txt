@@ -1,0 +1,6 @@
+numpy
+opencv-python
+mediapipe
+streamlit
+streamlit-option-menu
+tensorflow
