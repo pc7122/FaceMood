@@ -5,8 +5,8 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 from mediapipe.python.solutions.drawing_utils import _normalized_to_pixel_coordinates
 
-from helper import get_models, get_image_file, get_video_file, mediapipe_detection, opencv_detection
-from helper import mp_face_detection, mp_drawing, emotion_dict
+from utils import get_models, get_image_file, get_video_file, mediapipe_detection, opencv_detection
+from utils import mp_face_detection, mp_drawing, emotion_dict
 
 # Add Sidebar and Main Window style
 st.markdown(
