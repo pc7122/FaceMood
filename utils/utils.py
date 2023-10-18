@@ -14,7 +14,7 @@ from .modelutils import my_new_model
 emotion_dict = {0: "Angry", 1: "Disgusted", 2: "Fear", 3: "Happy", 4: "Neutral", 5: "Sad", 6: "Surprised"}
 
 # load the cascade file
-face_cascade = cv.CascadeClassifier('../haarcascade_frontalface_alt.xml')
+face_cascade = cv.CascadeClassifier('./haarcascade_frontalface_alt.xml')
 
 # load mediapipe model and drawing utils
 mp_face_detection = mp.solutions.face_detection
